@@ -51,9 +51,6 @@ export const App = () => {
         >
           <a href="https://github.com/garthmcrae/rollup-preact-typescript">
             https://github.com/garthmcrae/rollup-preact-typescript
-          </a>{" "}
-          <a href="https://garthmcrae.github.io/rollup-preact-typescript/">
-            https://garthmcrae.github.io/rollup-preact-typescript/
           </a>
         </div>
       </div>
