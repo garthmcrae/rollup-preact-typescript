@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.29.1"
+  },
+  "dependencies": {
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat"
+  },
+  "name": "rollup-preact-typescript",
+  "scripts": {
+    "build": "PUBLIC_PATH='/rollup-preact-typescript/' rollup -c",
+    "serve": "npx serve dist",
+    "start": "PUBLIC_PATH='/' rollup -c -w"
+  },
+  "type": "module"
+}
