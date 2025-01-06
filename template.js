@@ -40,9 +40,12 @@ export const template = ({
 <head>
 ${metas}
 <title>${title}</title>
+<meta
+  name="description"
+  content="Exploring Rollup, Preact and Typescript." />
 </head>
 <style>
-  body { margin: 0; }
+  body { background-color: blue; margin: 0; }
 </style>
 <body>
 ${scripts}

@@ -2,11 +2,9 @@ export const App = () => {
   return (
     <div
       style={{
-        backgroundColor: "blue",
         boxSizing: "border-box",
         display: "grid",
         fontFamily: "serif",
-        minHeight: "100vh",
         padding: 16,
         placeContent: "center",
       }}
@@ -42,17 +40,18 @@ export const App = () => {
         >
           Rollup Preact Typescript
         </h1>
-        <div
-          style={{
-            backgroundColor: "white",
-            borderStyle: "inset",
-            padding: 16,
-          }}
-        >
-          <a href="https://github.com/garthmcrae/rollup-preact-typescript">
+        <p style={{ marginBottom: 0, marginTop: 0 }}>
+          <a
+            href="https://github.com/garthmcrae/rollup-preact-typescript"
+            style={{
+              color: "white",
+              textDecoration: "none",
+              textShadow: "black 2px 0px",
+            }}
+          >
             https://github.com/garthmcrae/rollup-preact-typescript
           </a>
-        </div>
+        </p>
       </div>
     </div>
   );
